@@ -142,6 +142,7 @@ cd backend && python -m pytest -v
 
 ```
 robot-navigation-lab/
+├── LICENSE                        MIT license
 ├── requirements.txt               Pinned Python dependencies
 ├── .github/workflows/ci.yml       pytest, benchmark smoke test, frontend lint and build
 ├── docs/screenshot.png
@@ -191,3 +192,7 @@ robot-navigation-lab/
 - The filter can fail if no particle is near the true pose (for example, a kidnapped robot); there is no global relocalization.
 - Localization error levels off at a floor set by sensor and motion noise.
 - Single robot; the default grid is 40×30 cells.
+
+## License
+
+Code is released under the MIT License; see [LICENSE](LICENSE).
